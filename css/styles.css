@@ -3,8 +3,6 @@ body {
   font-family: Roboto, sans-serif;
   background-color: #fff;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -37,6 +35,11 @@ main {
 }
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-container {
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -426,9 +429,11 @@ main {
 }
 .footer {
   display: flex;
-  padding: 100px 0;
+  padding: 100px 15px;
   align-items: center;
   background: #2e2f42;
+  width: 1440px;
+  margin: 0 auto;
 }
 .logo-footer {
   display: block;
@@ -497,6 +502,7 @@ main {
 /* Modal */
 
 .backdrop {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
